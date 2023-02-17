@@ -1,0 +1,24 @@
+
+body{
+  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.App form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+input{
+  width:50% ;
+  margin:10px auto;
+  padding: 10px 5px;
+  border-radius: 20px;
+  outline: pink;
+  border:2px solid plum;
+}
+#rate-btn{
+  background-color: plum;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
