@@ -38,6 +38,8 @@ function App() {
       <label htmlFor="your-rating">Your Rating:</label>
       <input type="number" min={1} max={10} onChange={(e)=>{setYourRating(e.target.value)}} />
       <input type="submit" value="Rate" id="rate-btn" />
+      <input type="submit" value="Rate" id="rate-btn" />
+
       </form>
     </div>
   );
